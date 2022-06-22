@@ -1,0 +1,127 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: math;
+}
+.navbar{
+    background-color: #20aeee;
+    border-radius: 0px 0px 18px 18px;
+  }
+  .content{
+    margin: 5rem 0rem;
+  }
+  .top-25{
+    top: 25%;
+  }
+  
+  .span label {
+    font-family: "Itim" !important;
+  }
+  .btns button {
+    font-family: "Itim" !important;
+  }
+  .row:nth-child(2),
+  .row:nth-child(8),
+  .row:nth-child(10) {
+    background: #134a46;
+  }
+  .row:nth-child(3),
+  .row:nth-child(7) {
+    background: #377d6a;
+  }
+  .row:nth-child(4),
+  .row:nth-child(6) {
+    background: #7ab893;
+  }
+  .row:nth-child(5) {
+    background: #b2e3af;
+  }
+  .row span {
+    position: relative;
+    display: inline-block;
+    margin: 30px 10px;
+  }
+  
+  .swing {
+    display: inline-block;
+    width: 260px;
+    padding: 10px 0 10px 85px;
+    font-family: "Open Sans", sans;
+    font-weight: 400;
+    color: #377d6a;
+    background: #efefef;
+    border: 0;
+    border-radius: 10px;
+    margin: 0 !important;
+    outline: 0;
+    text-indent: 60px;
+    transition: all 0.3s ease-in-out;
+    margin: 0px 40px;
+  }
+  .swing::-webkit-input-placeholder {
+    color: #efefef;
+    text-indent: 0;
+    font-weight: 300;
+  }
+  .swing + label {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 10px;
+    text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+    background: #0b5664;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    transform-origin: 2px 2px;
+    transform: rotate(0);
+    animation: swing-back 0.4s 1 ease-in-out;
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(0);
+    }
+    20% {
+      transform: rotate(116deg);
+    }
+    40% {
+      transform: rotate(60deg);
+    }
+    60% {
+      transform: rotate(98deg);
+    }
+    80% {
+      transform: rotate(76deg);
+    }
+    100% {
+      transform: rotate(82deg);
+    }
+  }
+  @keyframes swing-back {
+    0% {
+      transform: rotate(82deg);
+    }
+    100% {
+      transform: rotate(0);
+    }
+  }
+  .swing:focus,
+  .swing:active {
+    color: #377d6a;
+    text-indent: 0;
+    background: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .swing:focus::-webkit-input-placeholder,
+  .swing:active::-webkit-input-placeholder {
+    color: #aaa;
+  }
+  .swing:focus + label,
+  .swing:active + label {
+    animation: swing 1.4s 1 ease-in-out;
+    transform: rotate(82deg);
+  }
+  .pad-top{
+    padding-top: 6rem;
+  }
