@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "timestamp": 1655885121151,
+  "index": "https://surya319.github.io/nfc-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://surya319.github.io/nfc-app/favicon.ico",
+        "https://surya319.github.io/nfc-app/index.html",
+        "https://surya319.github.io/nfc-app/main.64556c605215beeb.js",
+        "https://surya319.github.io/nfc-app/manifest.webmanifest",
+        "https://surya319.github.io/nfc-app/polyfills.c070d003aef5d168.js",
+        "https://surya319.github.io/nfc-app/runtime.24e7e4c6b5637a8c.js",
+        "https://surya319.github.io/nfc-app/styles.2747b9ac7304e9f9.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://surya319.github.io/nfc-app/assets/bootstrap.bundle.min.js",
+        "https://surya319.github.io/nfc-app/assets/bootstrap.min.css",
+        "https://surya319.github.io/nfc-app/assets/icons/icon-128x128.png",
+        "https://surya319.github.io/nfc-app/assets/icons/icon-144x144.png",
+        "https://surya319.github.io/nfc-app/assets/icons/icon-152x152.png",
+        "https://surya319.github.io/nfc-app/assets/icons/icon-192x192.png",
+        "https://surya319.github.io/nfc-app/assets/icons/icon-384x384.png",
+        "https://surya319.github.io/nfc-app/assets/icons/icon-48x48.png",
+        "https://surya319.github.io/nfc-app/assets/icons/icon-512x512.png",
+        "https://surya319.github.io/nfc-app/assets/icons/icon-72x72.png",
+        "https://surya319.github.io/nfc-app/assets/icons/icon-96x96.png",
+        "https://surya319.github.io/nfc-app/assets/nfc-logo.png",
+        "https://surya319.github.io/nfc-app/assets/nfc.js",
+        "https://surya319.github.io/nfc-app/assets/sweetalert2.all.min.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://surya319.github.io/nfc-app/assets/bootstrap.bundle.min.js": "551cac59bff2f99d2d17513fb27d7373cef3bb31",
+    "https://surya319.github.io/nfc-app/assets/bootstrap.min.css": "e2667ac2fe62c7cfdad53267590ec0ee68407601",
+    "https://surya319.github.io/nfc-app/assets/icons/icon-128x128.png": "188d509222c6b098f032e65e9f3ac3f0b4f8d34f",
+    "https://surya319.github.io/nfc-app/assets/icons/icon-144x144.png": "8e43715a29444de9fd6beb958a224cb3e5f6e5ef",
+    "https://surya319.github.io/nfc-app/assets/icons/icon-152x152.png": "0682c4145f1bb805d64c10fa712250db825274de",
+    "https://surya319.github.io/nfc-app/assets/icons/icon-192x192.png": "a0269a52c45bc186e5cb9715336900ef7c7c5fb1",
+    "https://surya319.github.io/nfc-app/assets/icons/icon-384x384.png": "12a24866a66bd8e344f233a7b9f07dedcc900561",
+    "https://surya319.github.io/nfc-app/assets/icons/icon-48x48.png": "eb2ddae6c41b34db8f244740473e15a6b2a37840",
+    "https://surya319.github.io/nfc-app/assets/icons/icon-512x512.png": "176c46b2995dd9e55525d8352aa65075ff23b73a",
+    "https://surya319.github.io/nfc-app/assets/icons/icon-72x72.png": "9e7a7dc0f15c1dbbd3d13f5f8b001dbfb6b6ddfb",
+    "https://surya319.github.io/nfc-app/assets/icons/icon-96x96.png": "bfa080a74f3327d60431d22f5bda963d6bf82b32",
+    "https://surya319.github.io/nfc-app/assets/nfc-logo.png": "fbd0b115a2705d46eea4e8fc893d4477aee9de7a",
+    "https://surya319.github.io/nfc-app/assets/nfc.js": "5c8605c9380166be664b15f400913a58f89f61c1",
+    "https://surya319.github.io/nfc-app/assets/sweetalert2.all.min.js": "1ce252b7af38110f0b083ab40bb7d1f3d5900d06",
+    "https://surya319.github.io/nfc-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://surya319.github.io/nfc-app/index.html": "d0657e695182b4c65c8b7a503c05610bdb5b0c76",
+    "https://surya319.github.io/nfc-app/main.64556c605215beeb.js": "267288086d7d9c06468fd672132b86cf94f217e6",
+    "https://surya319.github.io/nfc-app/manifest.webmanifest": "b55073e4a5fc5acb6f3376f73e656b73d31c74f0",
+    "https://surya319.github.io/nfc-app/polyfills.c070d003aef5d168.js": "b6554cf253a292f9dd1bb7cb95c6684a517fce00",
+    "https://surya319.github.io/nfc-app/runtime.24e7e4c6b5637a8c.js": "5fc415c259350a231615ac20c8470928da9cfe57",
+    "https://surya319.github.io/nfc-app/styles.2747b9ac7304e9f9.css": "1bd32e606216dc90cbcb20dda2667a4651c48bec"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
